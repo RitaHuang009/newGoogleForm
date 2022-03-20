@@ -1,0 +1,112 @@
+
+.container{
+    margin: 0 auto;
+    max-width: 1180px;
+  }
+  
+  .header{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 24px;
+  }
+  .fz16{
+    font-size: 16px;
+  }
+  
+  .mr-8{
+    margin-right: 8px;
+  }
+  
+  .form{
+    margin-top: 24px;
+    font-size: 16px;
+  }
+  
+  .feild{
+    display: flex;
+    padding-top: 16px;
+    position: relative;
+  }
+  
+  .flex-row{
+    display: flex;
+    align-items: center;
+  }
+  
+  .form_input{
+    font-size: 18px;
+    margin-top: 8px;
+  }
+  .w-100{
+    width: 100%;
+  }
+  
+  .feildBody{
+    width: 100%;
+  }
+  
+  .feildBody input,
+  .feildBody select{
+    height: 38px;
+    padding: 4px 12px;
+    border: 1px solid #CED4DA;
+    appearance: none;
+    background-color: #fff;
+  }
+  
+  .feildBody input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid #cecece;
+    padding: 0;
+  }
+  
+  .feildBody input[type="checkbox"]:checked {
+    background-color: black;
+    border: 1px solid black;
+    background-image: url(../images/check.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  select::-ms-expand{
+    display: none;
+  }
+  
+  .form_select{
+    display: block;
+    background-image: url(../images/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right 18px center;
+  }
+  
+  .form button[type="submit"]{
+    border: 0;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    background: none;
+    width: 100%;
+  }
+  
+  .button{
+    background-color: black ;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    padding: 8px 0;
+    margin: 24px 0;
+    cursor: pointer;
+  }
+  
+  @media (max-width:478px){
+    .feild{
+        flex-direction: column;
+    }
+  }
+  
+  
