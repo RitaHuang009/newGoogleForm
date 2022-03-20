@@ -1,57 +1,65 @@
-
-
-.container{
+.container {
   margin: 0 auto;
   max-width: 1180px;
 }
 
-.header{
+.header {
   font-size: 32px;
   text-align: center;
   padding-top: 24px;
 }
-.fz16{
+
+.fz16 {
   font-size: 16px;
 }
 
-.mr-8{
+.mr-8 {
   margin-right: 8px;
 }
 
-.form{
+.form {
   margin-top: 24px;
   font-size: 16px;
 }
 
-.feild{
+.feild {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-top: 16px;
   position: relative;
 }
 
-.flex-row{
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.form_input{
+.form_input {
   font-size: 18px;
   margin-top: 8px;
 }
-.w-100{
+
+.w-100 {
   width: 100%;
 }
 
-.feildBody{
+.feildBody {
   width: 100%;
 }
 
 .feildBody input,
-.feildBody select{
+.feildBody select {
   height: 38px;
   padding: 4px 12px;
   border: 1px solid #CED4DA;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   background-color: #fff;
 }
 
@@ -73,18 +81,18 @@
   background-position: center center;
 }
 
-select::-ms-expand{
+select::-ms-expand {
   display: none;
 }
 
-.form_select{
+.form_select {
   display: block;
   background-image: url(../images/arrow.svg);
   background-repeat: no-repeat;
   background-position: right 18px center;
 }
 
-.form button[type="submit"]{
+.form button[type="submit"] {
   border: 0;
   outline: none;
   color: #fff;
@@ -93,20 +101,30 @@ select::-ms-expand{
   width: 100%;
 }
 
-.button{
-  background-color: black ;
+.button {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #fff;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 8px 0;
   margin: 24px 0;
   cursor: pointer;
 }
 
-@media (max-width:478px){
-  .feild{
-      flex-direction: column;
+@media (max-width: 478px) {
+  .feild {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
+/*# sourceMappingURL=all.css.map */
