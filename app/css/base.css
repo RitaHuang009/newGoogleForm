@@ -1,60 +1,61 @@
-
-.container{
+.container {
     margin: 0 auto;
     max-width: 1180px;
-  }
-  
-  .header{
+}
+
+.header {
     font-size: 32px;
     text-align: center;
     padding-top: 24px;
-  }
-  .fz16{
+}
+
+.fz16 {
     font-size: 16px;
-  }
-  
-  .mr-8{
+}
+
+.mr-8 {
     margin-right: 8px;
-  }
-  
-  .form{
+}
+
+.form {
     margin-top: 24px;
     font-size: 16px;
-  }
-  
-  .feild{
+}
+
+.feild {
     display: flex;
     padding-top: 16px;
     position: relative;
-  }
-  
-  .flex-row{
+}
+
+.flex-row {
     display: flex;
     align-items: center;
-  }
-  
-  .form_input{
+}
+
+.form_input {
     font-size: 18px;
     margin-top: 8px;
-  }
-  .w-100{
+}
+
+.w-100 {
     width: 100%;
-  }
-  
-  .feildBody{
+}
+
+.feildBody {
     width: 100%;
-  }
-  
-  .feildBody input,
-  .feildBody select{
+}
+
+.feildBody input,
+.feildBody select {
     height: 38px;
     padding: 4px 12px;
     border: 1px solid #CED4DA;
     appearance: none;
     background-color: #fff;
-  }
-  
-  .feildBody input[type="checkbox"] {
+}
+
+.feildBody input[type="checkbox"] {
     display: inline-block;
     margin-right: 10px;
     width: 20px;
@@ -62,38 +63,38 @@
     border-radius: 3px;
     border: 1px solid #cecece;
     padding: 0;
-  }
-  
-  .feildBody input[type="checkbox"]:checked {
+}
+
+.feildBody input[type="checkbox"]:checked {
     background-color: black;
     border: 1px solid black;
-    background-image: url(../images/check.svg);
+    background-image: url(../assets/images/check.svg);
     background-repeat: no-repeat;
     background-position: center center;
-  }
-  
-  select::-ms-expand{
+}
+
+select::-ms-expand {
     display: none;
-  }
-  
-  .form_select{
+}
+
+.form_select {
     display: block;
-    background-image: url(../images/arrow.svg);
+    background-image: url(../assets/images/arrow.svg);
     background-repeat: no-repeat;
     background-position: right 18px center;
-  }
-  
-  .form button[type="submit"]{
+}
+
+.form button[type="submit"] {
     border: 0;
     outline: none;
     color: #fff;
     font-size: 16px;
     background: none;
     width: 100%;
-  }
-  
-  .button{
-    background-color: black ;
+}
+
+.button {
+    background-color: black;
     display: flex;
     align-items: center;
     color: #fff;
@@ -101,12 +102,10 @@
     padding: 8px 0;
     margin: 24px 0;
     cursor: pointer;
-  }
-  
-  @media (max-width:478px){
-    .feild{
+}
+
+@media (max-width:478px) {
+    .feild {
         flex-direction: column;
     }
-  }
-  
-  
+}
